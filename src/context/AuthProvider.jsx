@@ -1,5 +1,5 @@
 import { useState, useEffect, createContext } from 'react';
-import clienteAxios from '../config/Axios';
+import clienteAxios from '../config/axios';
 
 const AuthContext = createContext();//referencia para llamar el context de este provider
 
